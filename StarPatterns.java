@@ -97,7 +97,6 @@ class StarPatterns
             {
                 if ((i < h/2 && j < w/2) || (i >= h/2 && j >= w/2)) System.out.print("*");
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -113,7 +112,6 @@ class StarPatterns
             {
                 if (i >= j) System.out.print("*");
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -129,7 +127,6 @@ class StarPatterns
             {
                 if (i >= j && (j == 0 || j == i || i == h-1)) System.out.print("*");
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -145,7 +142,6 @@ class StarPatterns
             {
                 if (i <= j) System.out.print("*");
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -163,7 +159,6 @@ class StarPatterns
                     System.out.print("*");
                 }
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             count += 1;
             System.out.println();
@@ -180,7 +175,6 @@ class StarPatterns
                     System.out.print("*");
                 }
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -196,7 +190,6 @@ class StarPatterns
                     System.out.print("*");
                 }
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }   
@@ -215,7 +208,6 @@ class StarPatterns
                     System.out.print("*");
                 }
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             count -= 1;
             System.out.println();
@@ -262,7 +254,6 @@ class StarPatterns
                     System.out.print("R");
                 }
                 else System.out.print(" ");
-                //System.out.print(i + "" + j + " ");
             }
             System.out.println();
         }  
